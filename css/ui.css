@@ -1,4 +1,4 @@
-#wrap{width:100%; height:100%;}
+#wrap{width:100%; height:100%; padding-right:180px;}
 #wrap > h1{font-size:0;}
 header .logo_box{position:absolute; right: 35px; top:75px;}
 header .logo_box img{width:100px;}
@@ -10,13 +10,19 @@ header .logo_box img{width:100px;}
 #wrap header nav ul li:after{content:""; display:block; width:5px; height:5px; border-radius:50%; background:#fff; position:absolute; left:0px; top:13px;}
 #wrap header nav ul li:hover a, #wrap header nav ul li.on a{color:#ed3140;}
 #wrap header nav ul li:hover:after, #wrap heaer nav ul li.on:after{background:#ed3140;}
-footer{width:180px; position:fixed; right:0px; bottom:0px; padding:0px 20px 30px 20px; font-size:11px; color:#7e7e7e; z-index:12;}
-footer address{padding:0px 0px 15px 0px;}
-footer > a{display:block; width:16px; height:16px; position:absolute; top:-31px; transition:.4s;}
-footer > a.naver{background:url(../image/naver.jpg) no-repeat; right:18px;}
-footer > a.naver:hover{background:url(../image/naver_hover.jpg) no-repeat;}
+footer{width:180px; position:fixed; right:0px; bottom:0px; padding:0px 0px 50px 0px; font-size:11px; color:#7e7e7e; z-index:12;}
+footer address{padding:5px 0px 15px 25px;}
+footer p{padding-left:35px;}
+footer > a{display:block; width:25px; height:25px; position:absolute; top:-31px; transition:.4s;}
+footer > a.naver{background:url(../image/naver_hover.png) no-repeat; right:18px;}
+footer > a.naver:hover{background:url(../image/naver.jpg) no-repeat;}
 footer > a.google{background:url(../image/google.png) no-repeat; right:48px;}
 footer > a.google:hover{background:url(../image/google_hover.png) no-repeat;}
 footer > a.github{background:url(../image/github.png) no-repeat; right:80px;}
 footer > a.github:hover{background:url(../image/github_hover.png) no-repeat;}
-#container{width:100%; height:100%;}
+#container{width:100%; height:100%; max-width:1200px; margin:0 auto;}
+#container .content{width:25%; height:100%; position:absolute;}
+#container #menu1{left:0%; background:url(../image/content_bg1.png) repeat;}
+#container #menu2{left:22%; background:url(../image/content_bg2.jpg) repeat;} 
+#container #menu3{left:44%; background:url(../image/content_bg3.jpg) repeat;}
+#container #menu4{left:66%; background:url(../image/content_bg4.jpg) repeat;}
